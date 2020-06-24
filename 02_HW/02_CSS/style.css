@@ -1,0 +1,16 @@
+h1 {
+  font-size: 20px;
+}
+
+.bluetext {
+  color: blue;
+}
+
+p {
+  font-size: 14px;
+}
+
+.orangecursive {
+  font-style: italic;
+  background-color: rgb(252, 242, 223);
+}
