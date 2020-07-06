@@ -1,0 +1,23 @@
+h2 {
+    text-align: center;
+    color: blue;
+    font-style: italic;
+}
+
+p {
+    text-align: center;
+    color: cyan;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+main {
+   margin: auto;
+    background-color: bisque;
+    width: 300px;
+    border: 10px solid black;
+    border-radius: 5px;
+}

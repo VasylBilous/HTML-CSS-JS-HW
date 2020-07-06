@@ -1,0 +1,46 @@
+.upper-ol {
+    list-style-type: none;
+    counter-reset: my-counter;
+  }
+  
+  .upper-ol li {
+    counter-increment: my-counter;
+    color: blue;
+  }
+  
+  .upper-ol li::before {
+    content: counter(my-counter, upper-roman)". ";
+    font-weight: bold;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .middle-ol {
+    list-style-type: none;
+    counter-reset: my-counter;
+  }
+  
+  .middle-ol li {
+    counter-increment: my-counter;
+  }
+  
+  .middle-ol li::before {
+    content: counter(my-counter, decimal)". ";
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .lower-ol {
+    list-style-type: none;
+    counter-reset: my-counter;
+  }
+  
+  .lower-ol li {
+    counter-increment: my-counter;
+  }
+  
+  .lower-ol li::before {
+    content: counter(my-counter, lower-alpha)". ";
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
