@@ -1,0 +1,38 @@
+.photos {
+    list-style-type: none;
+    text-align: center;
+}
+
+.horizontal_photos {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.horizontal_photos li {
+    display: inline;
+}
+
+.horizontal_photos li img {
+    width: 400px;
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.left_img {
+    float: left;
+    margin: 5px 50px 5px 0;
+}
+
+div {
+    text-align: center;
+    font-size: 25px;
+}
+
+P {
+    text-align: justify; 
+}
+

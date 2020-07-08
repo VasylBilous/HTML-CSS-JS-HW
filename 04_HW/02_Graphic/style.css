@@ -1,0 +1,46 @@
+.custom-list {
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.custom-list li {
+    border: 5px solid darkgray;
+    line-height: 10px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+    display: table;
+    margin: 0 auto;
+}
+
+.menu li {
+    background-color: darkgray;
+    height: 50px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    text-decoration: none;  
+    font-size: 20px;
+}
+
+.menu li:hover {
+    background-color: rgb(112, 107, 107);
+}
+
+.menu img {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
