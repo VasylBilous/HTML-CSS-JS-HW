@@ -1,0 +1,92 @@
+.A {
+  background-color: red;
+  border: 1px solid black;
+  height: 1000px;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.B {
+  background-color: orange;
+  height: 1000px;
+  width: 20%;
+  border: 1px solid black;
+}
+
+.C {
+  background-color: yellow;
+  height: 1000px;
+  width: 77%;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.D {
+  background-color: limegreen;
+  border: 1px solid black;
+  height: 30%;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.E {
+  width: 30%;
+  background-color: lightskyblue;
+  border: 1px solid black;
+  height: 90%;
+  align-self: center;
+}
+
+.F {
+  width: 65%;
+  background-color: purple;
+  border: 1px solid black;
+  height: 90%;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.H {
+  width: 45%;
+  background-color: gray;
+  border: 1px solid black;
+  height: 90%;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.G {
+  width: 45%;
+  background-color: pink;
+  border: 1px solid black;
+  height: 90%;
+  align-self: center;
+}
+
+.I {
+  width: 45%;
+  background-color: lightgrey;
+  border: 1px solid black;
+  height: 90%;
+  align-self: center;
+}
+
+.M {
+  background-color: pink;
+  border: 1px solid black;
+  height: 90%;
+  width: 95%;
+  align-self: center;
+}
