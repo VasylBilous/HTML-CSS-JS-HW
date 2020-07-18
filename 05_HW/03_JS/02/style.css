@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  position: absolute;
+  background-color: green;
+  height: 90%;
+  width: 90%;
+  border: 5px solid black;
+  align-self: center;
+}
+
+.ball {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 0;
+}

@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.svitlofor {
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    border: 3px solid black;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 3px solid black;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 100px;
+}
+
+.krug {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border: 3px solid black;
+    align-self: center;
+}
+
+#second,
+#third {
+    background-color: gray;
+}
+
+#first{
+    background-color: green;
+}
