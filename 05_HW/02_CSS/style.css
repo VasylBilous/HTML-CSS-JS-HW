@@ -1,7 +1,108 @@
-body{
+body {
   margin: auto;
 }
-.logo{
-  background-color: rgb(33, 139, 206);
+
+.container {
   width: 500px;
+  margin-left: 20px;
+}
+
+.logo {
+  width: 100px;
+  padding: 5px;
+}
+
+.A {
+  background-color: rgb(33, 139, 206);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: larger;
+  color: rgb(58, 57, 57);
+}
+
+.B {
+  font-weight: lighter;
+  margin-left: 10px;
+  text-align: justify;
+}
+
+input {
+  color: white;
+  background-color: rgb(33, 139, 206);
+  width: 90px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+}
+
+.C {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.D {
+
+  margin-top: 40px;
+}
+
+.D img {
+  float: left;
+  margin-right: 20px;
+}
+
+.E {
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.E img {
+  float: right;
+}
+
+p {
+  color: darkgray;
+}
+
+.G {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  text-align: left;
+}
+
+.G img {
+  width: 220px;
+}
+
+.H {
+  margin: 20px;
+  float: left;
+  width: 120px;
+  text-align: left;
+}
+
+.H img {
+  width: 140px;
+}
+
+.H h1 {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.I {
+  margin: 20px;
+}
+
+.I h1 {
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.I p {
+  color: rgb(58, 57, 57);
 }
