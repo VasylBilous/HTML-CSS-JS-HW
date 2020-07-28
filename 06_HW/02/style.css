@@ -1,0 +1,79 @@
+.container {
+    margin: 100px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 500px;
+    padding: 10px;
+    position: relative;
+}
+
+.container input{
+    border-radius: 5px;
+    border: 2px solid  rgb(85, 84, 84);
+}
+
+.top {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.top input {
+    width: 97%;
+}
+
+.title {
+    background-color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(85, 84, 84);
+    position: absolute;
+    left: -4%;
+    width: 350px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.bot {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: column;
+    width: 50%;
+}
+
+.bot-up  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bot-down  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container img {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    background-color: lightblue;
+}
+
+#mc {
+    left: 65%;
+    top: 30%;
+}
+
+#visa {
+    left: 65%;
+    top: 67%;
+}
+
+.container p{
+    font-weight: bold;
+    color: rgb(85, 84, 84);
+}
