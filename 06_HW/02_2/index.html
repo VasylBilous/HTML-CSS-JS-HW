@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="register-form">
+                <h1>Registration form</h1>
+                <div class="data">
+                    <img src="icons/user.ico">
+                    <input type="text" placeholder="username" id="username">
+                </div>
+                <div class="data">
+                    <img src="icons/email.ico">
+                    <input type="email" placeholder="email" id="email">
+                </div>
+                <div class="data">
+                    <img src="icons/password.ico">
+                    <input type="password" required placeholder="password">
+                    <input type="password" required placeholder="confirm password">
+                </div>
+                <br>
+                <div class="data">
+                    <input id="first" type="checkbox">
+                    <label for="first">I want to receive news or special offers</label>
+                </div>
+                <div class="data">
+                    <input id="second" type="checkbox">
+                    <label for="second">I agree with Terms and Conditions</label>
+                </div>
+            </div>
+            <div class="personal-form">
+                <h1>Personal details</h1>
+                <div class="data">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+                </div>
+                <div class="data" id="pop">
+                    <form>
+                        <input list="list" value="Male">
+                        <datalist id="list">
+                            <option value="Male"></option>
+                            <option value="Female"></option>
+                        </datalist>
+                    </form>
+                    <input type="date">
+                </div>
+            </div>
+        </div>
+        <div>
+            <hr>
+        </div>
+        <div class="bot">
+            <input type="button" value="submit">
+        </div>
+    </div>
+</body>
+
+</html>
