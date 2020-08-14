@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Cinzel";
+    src: url("fonts/Cinzel-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Cinzel Bold";
+    src: url("fonts/Cinzel-Bold.ttf");
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: gainsboro;
+    font-family: "Cinzel";
+}
+
+header {
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    height: 100px;
+    width: 200px;
+    background-color: gainsboro;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin: 20px;
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: red;
+}
+
+main img {
+    width: 100%;
+    height: 600px;
+    background-color: gainsboro;
+}
+
+#phrase {
+    background-color: gainsboro;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(243, 23, 23);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Cinzel Bold";
+}
+
+#text {
+    margin: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#soc {
+    color: white;
+}
+
+#soc:hover {
+    color: red;
+}
+
+.icons i {
+    color: white;
+    margin: 10px;
+}
+
+.icons i:hover {
+    color: red;
+}
+
+@media (max-width: 1050px) {
+    li {
+        margin: 3px;
+    }
+
+    li a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    header img {
+        width: 150px;
+    }
+
+    li {
+        margin: 5px;
+    }
+
+    li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    header img {
+        width: 100px;
+    }
+
+    li {
+        margin: 5px;
+    }
+
+    li a {
+        font-size: 12px;
+    }
+}
