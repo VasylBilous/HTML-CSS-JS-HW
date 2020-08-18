@@ -1,0 +1,137 @@
+.form {
+    margin: 0 auto;
+    background-color: darkgray;
+    border: 2px solid black;
+    box-shadow: 0 2px 2px black;
+    width: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.block {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block input {
+    background-color: lightgray;
+    width: 150px;
+    height: 20px;
+    border: solid 1px gray;
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sign {
+    border: none;
+    background-color: darkgray;
+    font-weight: bold;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+#sign:hover {
+    color: white;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: darkgray;
+    border-radius: 40%;
+    border: none;
+    position: absolute;
+    top: 30px;
+    left: 350px;
+}
+
+.circle i {
+    color: black;
+    size: 100px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.circle i:hover {
+    color: white;
+}
+
+#hidden {
+    visibility: hidden;
+    display: none;
+}
+
+.line {
+    background-color: lightseagreen;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.regis {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logBtn {
+    color: lightseagreen;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.profile {
+    background-color: lightseagreen;
+    border: 2px solid black;
+    box-shadow: 0 2px 2px black;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    visibility: hidden;
+    display: none;
+}
+
+@keyframes darker {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: rgba(0, 0, 0, 0.534);
+    }
+}
